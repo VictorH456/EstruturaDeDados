@@ -162,11 +162,13 @@ def Play(palavras):
                 ranking[pessoa] = pontuacao
                 verificacao = False
                 break
+            
+            chute = str(input("\nLetra: "))
+            chute = chute.lower()
             #verificação para caso a pessoa ganhe(Coloquei, porque não estava terminando o jogo antes de terminar o while)
             if verificacao_2 == False: break 
             
             if chute not in palavra:
                 tentativas +=1
 
-            chute = str(input("\nLetra: "))
-            chute = chute.lower()
+            
