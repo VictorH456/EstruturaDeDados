@@ -170,5 +170,3 @@ def Play(palavras):
             
             if chute not in palavra:
                 tentativas +=1
-
-            
