@@ -31,7 +31,7 @@ class Stack:
             print("Pilha vazia")
         else:
             while aux != None:
-                print(f"{aux.valor}", end=" ")
+                print(f"{aux.valor}", end="")
                 aux = aux.ant
             print()
 
